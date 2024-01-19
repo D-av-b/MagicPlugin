@@ -8,7 +8,7 @@ import com.elmakers.mine.bukkit.api.spell.Spell;
 import com.elmakers.mine.bukkit.api.spell.SpellResult;
 import com.elmakers.mine.bukkit.utility.ConfigurationUtils;
 
-public class ActionContext implements Cloneable {
+public class ActionContext implements Cloneable { 
     private final ConfigurationSection parameters;
     private final SpellAction action;
 
